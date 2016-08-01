@@ -1,0 +1,1032 @@
+body {
+    background: #000;
+    color: #fff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p,h2,h3 {
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Structure */
+#container {
+    width: 96%;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 2%;
+}
+
+nav#toggle-header {
+    border-bottom: 1px solid #575757;
+    display: block;
+    height: 49px;
+    float: left;
+    padding: 0 10%;
+    width: 80%;
+}
+
+nav#toggle-header #schalke {
+    border-right: 1px solid #575757;
+    display: block;
+    height: 49px;
+    float: left;
+    width: 137px;
+}
+
+nav#toggle-header #schalke img {
+    width: 100%;
+}
+
+nav#toggle-header #preference {
+    font-size: 12px;
+    float: right;
+    height: 31px;
+    padding-bottom: 9px;
+    padding-left: 18px;
+    padding-right: 120px;
+    padding-top: 9px;
+    text-transform: uppercase;
+    width: auto;
+}
+
+nav#toggle-header #preference p {
+    float: left;
+    margin: 7px;
+}
+
+nav#toggle-header #preference select {
+    background: #000;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+header #mobile-id-content h1 {
+    display: none;
+}
+
+header #desktop-id-content {
+    float: left;
+    height: auto;
+    padding: 0 10%;
+    width: 80%;
+}
+
+header #desktop-id-content h1 {
+    background: url(../img/s-04-shop.png) 0 0 no-repeat;
+    float: left;
+    height: 95px;
+    margin: 0;
+    text-indent: -9999px;
+    width: 26%;
+}
+
+header #desktop-id-content #user-options {
+    float: right;
+    height: 95px;
+    width: 74%;
+}
+
+header #desktop-id-content #user-options #search,header #desktop-id-content #user-options #account,header #desktop-id-content #user-options #basket {
+    float: left;
+}
+
+header #desktop-id-content #user-options #search {
+    padding: 19px 3%;
+    width: 44%;
+}
+
+header #desktop-id-content #user-options #search .search-box {
+    background: #fff;
+    border-radius: 30px;
+    padding: 5px 2px;
+    width: 100%;
+}
+
+header #desktop-id-content #user-options #search .search-box input[type=search] {
+    border: none;
+    color: #9e9e9e;
+    font-size: 14px;
+    margin: 10px;
+    outline: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 17px;
+    width: 80%;
+    width: auto;
+}
+
+header #desktop-id-content #user-options #search .search-box input[type=submit] {
+    background: url(../img/desktop-search-btn.png);
+    border: none;
+    float: right;
+    height: 39px;
+    margin: 3px;
+    outline: none;
+    width: 39px;
+}
+
+header #desktop-id-content #user-options #account {
+    padding: 22px 1%;
+    width: 16%;
+}
+
+header #desktop-id-content #user-options #account p {
+    background-image: url(../img/desktop-acct.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+header #desktop-id-content #user-options #basket {
+    padding: 22px 1%;
+    width: 30%;
+}
+
+header #desktop-id-content #user-options #basket p {
+    background-image: url(../img/desktop-basket.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    font-size: 14px;
+    padding-left: 30px;
+}
+
+header nav {
+    float: left;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav.mobile {
+    display: none;
+}
+
+nav.desktop {
+    background-color: #004b9c;
+    height: 54px;
+    height: auto;
+    width: 100%;
+}
+
+nav.desktop ul {
+    list-style: none;
+    padding: 0 10%;
+    width: 80%;
+}
+
+nav.desktop ul li {
+    background-image: url(../img/desktop-nav-mode.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    float: left;
+    line-height: 54px;
+    padding: 0 35px 0 10px;
+    margin-left: 0;
+}
+
+nav.desktop ul li:last-child {
+    background-image: url(../img/mobile-nav-mode-empty.png);
+}
+
+nav.desktop ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#banner {
+    background-image: url(../img/schalke-players.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    float: left;
+    padding-bottom: 94px;
+    padding-top: 88px;
+    text-align: center;
+    width: 100%;
+}
+
+#banner p {
+    font-size: 18px;
+}
+
+#banner h2 {
+    font-size: 58px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+#banner h3 {
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+button {
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 33px;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: #fff;
+    color: #004b9c;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#main {
+    clear: both;
+    float: left;
+    width: 100%;
+}
+
+#main>.promo-image,#main>.promo-data {
+    float: right;
+    width: 50%;
+}
+
+#main>.promo-image {
+    background: #fff;
+    height: 770px;
+}
+
+#main>.promo-data {
+    background: #004b9c;
+    height: 770px;
+}
+
+#main>.promo-data h2 {
+    font-size: 50px;
+    padding-top: 33%;
+    padding-left: 15%;
+    text-transform: uppercase;
+}
+
+#main>.promo-data .last {
+    padding-left: 0;
+}
+
+#main>.promo-data p {
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 1.4em;
+    font-size: 20px;
+    padding-left: 15%;
+}
+
+#main>.promo-data .last {
+    padding-left: 0;
+}
+
+#main>.promo-data button {
+    margin-left: 15%;
+}
+
+#main>.promo-data .personalise {
+    margin-left: 0;
+}
+
+#main .promo-image .left-mode .more-info-handler,#main .promo-image .right-mode .more-info-handler {
+    background: url(../img/more-info-handler.png) 0 0 no-repeat;
+}
+
+#main .promo-image .left-mode {
+    background: url(../img/left-mode.png) 0 0 no-repeat;
+    height: 770px;
+/*position:relative;*/
+    width: 100%;
+}
+
+#main .promo-image .left-mode #shirt-front {
+    background-image: url(../img/shirt-front-markers.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 470px;
+    position: relative;
+    top: 12%;
+    width: 100%;
+}
+
+#main .promo-image .left-mode #shirt-front img {
+    width: 100%;
+}
+
+#main .promo-image .right-mode {
+    background: url(../img/right-mode.png) 100% 0 no-repeat;
+    height: 770px;
+    width: 100%;
+}
+
+#main .promo-image .right-mode #shirt-back {
+    background-image: url(../img/shirt-back-markers.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 635px;
+    position: relative;
+    right: -10%;
+    top: 6%;
+}
+
+#main>.hero-image {
+    background: url(../img/hero-mode.png) 0 0 no-repeat;
+    background-size: contain;
+    clear: both;
+    float: left;
+    padding: 0 15%;
+}
+
+#main #shirt {
+    display: block;
+    position: relative;
+}
+
+#main #shirt img {
+    width: 100%;
+}
+
+#main #shirt img.mobile {
+    display: none;
+}
+
+#main #shirt img.desktop {
+    display: block;
+}
+
+#main #shirt .marker {
+    background: url(../img/more-info-handler.png);
+    height: 38px;
+    left: 80px;
+    position: absolute;
+    top: 120px;
+    width: 38px;
+    z-index: 20;
+}
+
+#main #shirt .marker-content {
+    background: #7ab0e0;
+    border: 10px solid #395369;
+    border-radius: 50%;
+    color: #fff;
+    display: none;
+    height: 300px;
+    left: -120px;
+    position: absolute;
+    top: 143px;
+    width: 300px;
+    z-index: 30;
+}
+
+#main #shirt .marker-content div {
+    padding: 22% 13%;
+}
+
+#main #shirt .marker-content div h3 {
+    font-size: 28px;
+    font-style: normal;
+    font-weight: lighter;
+    margin-top: 0;
+}
+
+#main #shirt .marker-content div p {
+    font-weight: lighter;
+}
+
+#main #shop {
+    background: url(../img/shop-mode.png) 0 0 no-repeat;
+    background-size: cover;
+    clear: both;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+
+#main #shop h2,#main #shop p {
+    text-align: center;
+}
+
+#main #shop h2 {
+    font-size: 50px;
+    padding-top: 10%;
+    text-transform: uppercase;
+}
+
+#main #shop .tag-line {
+    padding-top: 0;
+}
+
+#main #shop p {
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: normal;
+    line-height: 1.4em;
+    margin: 32px auto;
+    width: 70%;
+}
+
+#main #shop .follow {
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+#main #shop .list-items {
+    padding: 0;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    width: 90%;
+}
+
+#main #shop .list-items li {
+    display: inline-block;
+    list-style: none;
+    height: 300px;
+    margin: 2%;
+    vertical-align: top;
+    width: 300px;
+}
+
+#main #shop .list-items li div {
+    background: #004b9c;
+    border: 10px solid #03264b;
+    border-radius: 100%;
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+
+#main #shop .list-items li div img {
+    width: 100%;
+}
+
+#main #shop .list-items li div #title-1 {
+    background-image: url(../img/list-item-title.png);
+    margin: 24% auto 0;
+    height: 79px;
+    width: 87px;
+}
+
+#main #shop .list-items li div #title-2 {
+    width: 142px;
+    margin: 24% auto 0;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+#main #shop .list-items li div #title-3 {
+    background-image: url(../img/list-item-title-icon-last.png);
+    margin: 24% auto 0;
+    height: 63px;
+    width: 71px;
+    text-transform: uppercase;
+}
+
+#main #shop .list-items li div p {
+    margin: 15px auto;
+}
+
+#main #shop .social-icons {
+    list-style: none;
+    height: 75px;
+    margin: 0 auto 70px;
+    padding: 2px 3px;
+    width: 306px;
+}
+
+#main #shop .social-icons li {
+    display: inline-block;
+    height: 75px;
+    margin-right: 35px;
+    vertical-align: top;
+    width: 75px;
+}
+
+#main #shop .social-icons li:last-child {
+    margin-right: 0;
+}
+
+#main #shop .social-icons li a {
+    display: block;
+}
+
+#main #shop .social-icons li a img {
+    width: 100%;
+}
+
+#main #special-offers {
+    background: #000;
+    float: left;
+    height: auto;
+    padding: 25px 0;
+    width: 100%;
+}
+
+#main #special-offers h2 {
+    font-size: 22px;
+    float: left;
+    margin: 0;
+    text-transform: uppercase;
+    width: auto;
+}
+
+#main #special-offers .email-container {
+    background: #fff;
+    border: none;
+    border-radius: 30px;
+    float: right;
+    height: 42px;
+    margin-right: 5%;
+    padding-left: 20px;
+    width: 410px;
+}
+
+#main #special-offers .email-container input[type=email] {
+    border: none;
+    height: 36px;
+    margin-top: 3px;
+    outline: none;
+    width: 280px;
+}
+
+#main #special-offers .email-container input[type=submit] {
+    background: url(../img/sign-up.png);
+    border: none;
+    color: #fff;
+    float: right;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    height: 42px;
+    outline: none;
+    text-transform: uppercase;
+    width: 117px;
+}
+
+#mobile-footer {
+    display: none !important;
+}
+
+#desktop-footer {
+    background: #001b30;
+    clear: both;
+    display: block;
+    float: left;
+    height: auto;
+    padding: 0 10%;
+    width: 80%;
+}
+
+#desktop-footer ul,#desktop-footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#desktop-footer ul {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#desktop-footer li {
+    margin-bottom: 15px;
+    padding: 0 1%;
+    text-align: center;
+    width: 18%;
+}
+
+#desktop-footer ul li {
+    font-size: 18px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#desktop-footer ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#desktop-footer ul li ul li {
+    float: none;
+    font-size: 14px;
+    text-align: center;
+    text-transform: none;
+    width: 100%;
+}
+
+#desktop-footer ul li ul li a {
+    color: #99a4ac;
+    display: block;
+    text-decoration: none;
+}
+
+#container .end {
+    background: #001b30;
+    border-top: 1px solid #99a4ac;
+    clear: both;
+    float: left;
+    height: 54px;
+    padding: 0 10%;
+    width: 80%;
+}
+
+#container .copyright {
+    border-right: 1px solid #99a4ac;
+    float: left;
+    width: 30%;
+}
+
+#container .copyright span {
+    display: none;
+}
+
+#container .copyright img {
+    float: right;
+}
+
+#container .card-container {
+    float: left;
+    width: 69%;
+}
+
+#container .card-container .cards {
+    border-left: 1px solid #99a4ac;
+    float: right;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    width: 30%;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1320px) {
+    header #desktop-id-content h1 {
+        width: 100%;
+    }
+
+    header #desktop-id-content #user-options {
+        width: 100%;
+    }
+
+    nav.desktop ul li {
+        background-image: url(../img/mobile-nav-mode-empty.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #main #special-offers h2 {
+        float: none;
+        text-align: center;
+    }
+
+    #main #special-offers .email-container {
+        float: none;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav#toggle-header {
+        display: none;
+    }
+
+    header #desktop-id-content {
+        display: none;
+    }
+
+    header #mobile-id-content h1 {
+        background: url(../img/brand-name.png) top center no-repeat;
+        display: block;
+        float: none;
+        height: 120px;
+        margin: 0 auto;
+        text-indent: -9999px;
+        width: 369px;
+    }
+
+    nav.desktop {
+        display: none;
+    }
+
+    nav.mobile {
+        background: #004b9c;
+        display: block;
+        width: 100%;
+        z-index: 50;
+    }
+
+    nav.mobile ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+    }
+
+    nav.mobile ul li {
+        background-color: #004b9c;
+        background-image: url(../img/mobile-nav-mode.png);
+        background-position: right top;
+        background-repeat: no-repeat;
+        float: left;
+        margin-left: 0;
+        width: 19%;
+        width: 20%;
+    }
+
+    nav.mobile ul li:last-child {
+        background-image: url(../img/mobile-nav-mode-empty.png);
+    }
+
+    nav.mobile a {
+        display: block;
+        padding: 0 10px;
+        padding: 0 20px;
+        color: #FFF;
+        font-size: 20px;
+        line-height: 60px;
+        line-height: 72px;
+        text-decoration: none;
+    }
+
+    nav.mobile a:hover {
+    /*background-color: #000000; */
+    }
+
+    nav.mobile #menu {
+        background-image: url(../img/menu.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    nav.mobile #viewport {
+        background-image: url(../img/viewport.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    nav.mobile #search {
+        background-image: url(../img/search.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    nav.mobile #account {
+        background-image: url(../img/account.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    nav.mobile #basket {
+        background-image: url(../img/basket.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    nav.mobile #menu a span,nav.mobile #viewport a span,nav.mobile #search a span,nav.mobile #account a span,nav.mobile #basket a span {
+        font-size: 1px;
+        opacity: 0;
+    }
+
+    nav.mobile ul ul {
+        display: none;
+        position: absolute;
+        top: 60px;
+        top: 72px;
+    }
+
+    /* Display Dropdowns on Hover */
+    nav.mobile ul li:hover > ul {
+        display: inherit;
+    }
+
+    nav.mobile ul li ul li:hover {
+        border-right: 10px solid #447bb7;
+        box-sizing: border-box;
+    }
+
+    nav.mobile ul ul li {
+        background-image: url(../img/mobile-nav-mode-empty.png);
+        display: list-item;
+        float: none;
+        min-width: 320px;
+        position: relative;
+        text-transform: uppercase;
+        width: auto;
+    }
+
+    nav.mobile ul ul li a:hover {
+        color: #8db4df;
+    }
+
+    #main>.promo-data {
+        float: none;
+        height: auto;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    #main>.promo-data h2 {
+        font-size: 44px;
+        margin: 0;
+        padding-top: 60px;
+        padding-left: 0;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    #main>.promo-data p {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #main>.promo-data button {
+        display: block;
+        margin: 0 auto;
+        width: 163px;
+    }
+
+    #main>.promo-data .personalise {
+        margin-left: auto;
+    }
+
+    #main>.promo-image {
+        background: #fff;
+        float: none;
+        height: auto;
+        width: 100%;
+    }
+
+    #main .promo-image .left-mode {
+        background: transparent;
+        height: 570px;
+    }
+
+    #main .promo-image .left-mode #shirt-front {
+        background-position: top center;
+        top: 40px;
+    }
+
+    #main .promo-image .right-mode {
+        background: transparent;
+        height: auto;
+        width: 100%;
+    }
+
+    #main .promo-image .right-mode #shirt-back {
+        background-image: url(../img/shirt-back-markers.png);
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 620px;
+        position: relative;
+        right: 0;
+    }
+
+    #main>.hero-image {
+        clear: none;
+        float: none;
+        height: auto;
+        padding: 0;
+    }
+
+    #main #shirt img.desktop {
+        display: none;
+    }
+
+    #main #shirt img.mobile {
+        display: block;
+    }
+
+    #main #shirt .marker,#main #shirt .marker-content {
+        display: none;
+    }
+
+    #main #shop .list-items li {
+        margin: 4%;
+    }
+
+    #main #special-offers {
+        height: 235px;
+        height: auto;
+    }
+
+    #main #special-offers h2 {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+    }
+
+    #main #special-offers .email-container {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+
+    #desktop-footer {
+        display: none;
+    }
+
+    #mobile-footer {
+        background: #001b30;
+        clear: both;
+        display: block !important;
+        float: left;
+        height: auto;
+        width: 100%;
+    }
+
+    #mobile-footer ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #mobile-footer ul li {
+        border-bottom: 1px solid #888d92;
+        font-size: 30px;
+        line-height: 99px;
+        padding: 35px;
+    }
+
+    #mobile-footer ul li a {
+        background-image: url(../img/footer-expand.png);
+        background-repeat: no-repeat;
+        background-position: right center;
+        color: #fff;
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    #mobile-footer ul li ul {
+        display: block;
+        display: none;
+    }
+
+    #mobile-footer ul li ul li {
+        border-bottom: 0;
+        font-size: 18px;
+        line-height: normal;
+        padding: 10px 35px;
+    }
+
+    #mobile-footer ul li ul li a {
+        background: transparent;
+        color: #8f9ba4;
+        text-transform: none;
+    }
+
+    #container .end {
+        background: #001b30;
+        border-top: 0;
+        height: auto;
+    }
+
+    #container .copyright {
+        border-right: 0;
+        float: left;
+        text-align: center;
+        width: 100%;
+    }
+
+    #container .copyright span {
+        display: none;
+    }
+
+    #container .copyright img {
+        float: none;
+    }
+
+    #container .card-container {
+        background: #001b30;
+        float: none;
+        width: auto;
+    }
+
+    #container .card-container .cards {
+        border-left: 0;
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
